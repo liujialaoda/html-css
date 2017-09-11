@@ -1,0 +1,253 @@
+@import url("base.css");
+body{
+	background: #f0f5f9;
+	height: 18rem;
+}
+header{
+	width: 100%;
+	height: 1.46rem;
+	background:#FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 999;
+}
+.header-left{
+	display: block;
+	width: 1.4rem;
+	height: 100%;
+	background: yellow;
+}
+.header-left img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header-right{
+	display: block;
+	width: 1.35rem;
+	height: 100%;
+	background: yellow;
+}
+.header-right img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.head{
+	width: 100%;
+	height: 1.46rem;
+}
+.touxiang{
+	width: 100%;
+	height: 2.36rem;
+	background: #FFFFFF;
+	display: flex;
+	padding: 0.38rem 0.27rem;
+}
+.touxiang a{
+	display: block;
+	width: 1.54rem;
+	height: 1.54rem;
+	background: yellow;
+	border-radius: 50%;
+}
+.touxiang a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.touxiang .name{
+	width: 5.96rem;
+	height: 1.54rem;
+	padding-left: 0.4rem;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.touxiang .name .mingzi{
+	width: 5rem;
+	height: 0.76rem;
+	background: #FFFFFF;
+	font-size: 0.5rem;
+	color: #8b8b8b;
+	text-align:left;
+	line-height: 0.76rem;
+}
+.touxiang .name .vip{
+	width: 0.85rem;
+	height: 0.76rem;
+	background: #FFFFFF;
+}
+.touxiang .name .vip a{
+	display: block;
+	width: 0.85rem;
+	height: 0.76rem;
+}
+ .touxiang .name .vip a img{
+	display: block;
+	width: 0.85rem;
+	height: 0.76rem;
+}
+.dingdan{
+	width: 100%;
+	height: 2.49rem;
+	background: #FFFFFF;
+	margin-top: 0.15rem;
+	display: flex;
+	justify-content: space-around;
+}
+.dingdan li{
+	width: 1.65rem;
+	height: 100%;
+	background: #FFFFFF;
+}
+.dingdan li a{
+	display: block;
+	width: 1.65rem;
+	height: 100%;
+}
+.dingdan li a .tupian{
+	width: 1.65rem;
+	height: 1.45rem;
+	/*background: green;*/
+}
+.dingdan li a .tupian img{
+	display: block;
+	width: 1.65rem;
+	height: 1.45rem;
+}
+.dingdan li a .wenzi{
+	width: 1.65rem;
+	height: 0.72rem;
+	background: #FFFFFF;
+	font-size: 0.36rem;
+	color: #333333;
+	text-align: center;
+	line-height: 0.72rem;
+}
+.za{
+	width: 100%;
+	height: 5.91rem;
+	background: white;
+	margin-top: 0.15rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0.45rem 0.3rem;
+}
+.za li{
+	width: 2.28rem;
+	height: 2.28rem;
+	background:#FFFFFF;
+	border-radius: 6px;
+}
+.za li a{
+	display: block;
+	width: 2.28rem;
+	height: 2.28rem;
+	border-radius: 6px;
+}
+.za li a img{
+	display: block;
+	width: 2.28rem;
+	height: 2.28rem;
+	border-radius: 5px;
+}
+.people{
+	width: 100%;
+	height: 2.4rem;
+	background: #FFFFFF;
+	margin-top: 0.15rem;
+	padding: 0.45rem 0.3rem;
+	display: flex;
+	justify-content: space-between;
+}
+.people-left{
+	display: block;
+	width: 4.06rem;
+	height: 0.9rem;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+}
+.people-left  .tupian{
+	width: 0.9rem;
+	height: 0.9rem;
+	background: #FFFFFF;
+	border-radius: 5px;
+}
+.people-left  .tupian img{
+	display: block;
+	width: 0.9rem;
+	height: 0.9rem;
+	border-radius: 5px;
+}
+.people-left  .daren{
+	width: 3.16rem;
+	height: 0.9rem;
+	background: #FFFFFF;
+	font-size: 0.38rem;
+	color: #333333;
+	line-height: 0.9rem;
+	text-align: center;
+}
+.people-right{
+	display: block;
+	width: 2.06rem;
+	height: 0.9rem;
+	background: #FFFFFF;
+	font-size: 0.36rem;
+	color: #7f7f7f;
+	line-height: 0.9rem;
+	text-align: center;
+}
+/*底部开始*/
+.nav{
+	width: 100%;
+	height: 1.3rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 0.05rem;
+	font-size:0.3rem; 
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+.nav1{
+	width: 1.3rem;
+	height: 1rem;
+}
+.nav1 a{
+	display: block;
+	width: 1.3rem;
+	height: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.down{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.down span{
+	display: block;
+	margin-left: 0.4rem;
+}
+.down-zi{
+	width: 1.3rem;
+	height: 0.37rem;
+	font-size: 0.3rem;
+	color: #999999;
+	text-align: center;
+}
+ nav .nav1:nth-of-type(4) a .down-zi{
+	color:#ed2d69;
+}
+/*底部结束*/

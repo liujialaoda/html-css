@@ -1,0 +1,16 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-21 01:02:59
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-26 10:39:42
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "微软雅黑"，“宋体”，sans-serif;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}

@@ -1,0 +1,394 @@
+@import url("base.css");
+body{
+	background: #f0f5f9;
+	height: 56rem;
+}
+/*头部开始*/
+header{
+	width: 100%;
+	height: 1.33rem;
+	background: #FFFDEF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0.33rem;
+	border-bottom: 1px solid #CCCCCC;
+	position: fixed;
+	z-index: 999;
+}
+.search{
+	width: 9.14rem;
+	height: 0.88rem;
+	background: #FFFDEF;
+	border-bottom: 1px solid #CCCCCC;
+	display: flex;
+	justify-content: space-between;
+}
+.search  .sou{
+	width: 1.02rem;
+	height: 0.88rem;
+	/*background: red;*/
+}
+.search  .sou img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.search .shuru{
+	display: block;
+	width: 8.12rem;
+	height: 0.88rem;
+	background: #f0f5f8;
+}
+.search .shuru .text{
+	display: block;
+	width: 8.12rem;
+	height: 0.88rem;
+	background: #f0f5f8;
+	border: none;
+}
+.search .shuru .text:focus{
+	outline: none;
+}
+.massage{
+	display: block;
+	width: 1.33rem;
+	height: 1.3rem;
+	background: red;
+}
+.massage img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.head{
+	width: 100%;
+	height: 1.33rem;
+}
+/*头部结束*/
+/*列表开始*/
+.list{
+	width: 100%;
+	height: 4.35rem;
+	/*background: red;*/
+	border-bottom: 1px solid #eff4f7;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1px;
+}
+.list li{
+	width: 25%;
+	height: 100%;
+	/*background: yellow;*/
+	border-right: 1px solid #f0f2f1;
+	border-bottom: 1px solid #eff4f7;
+}
+.list li:last-child{
+	border-right: 0;
+}
+.list li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.list li a .tu{
+	width: 100%;
+	height: 2.96rem;
+	/*background: red;*/
+}
+.list li a .tu img{
+	display: block;
+	width: 100%;
+	height: 2.96rem;
+}
+.list li a .leibie{
+	width: 100%;
+	height: 1.39rem;
+	background:white;
+	font-size: 0.36rem;
+	color: #5d5d5d;
+	text-align: center;
+	line-height: 1.39rem;
+}
+/*列表结束*/
+/*热门穿搭开始*/
+.hot{
+	width: 100%;
+	height: 1.5rem;
+	background: white;
+	margin-top: 0.16rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.34rem;
+}
+.hot-left{
+	width: 2.09rem;
+	height: 100%;
+	font-size: 0.5rem;
+	color: #000000;
+	text-align: center;
+	line-height: 1.5rem;
+}
+.hot-more{
+	width: 1.08rem;
+	height: 100%;
+}
+.hot-more a{
+	display: block;
+	width: 1.08rem;
+	height: 100%;
+	font-size: 0.34rem;
+	color: #909090;
+	text-align: center;
+	line-height: 1.5rem;
+}
+.yangshi{
+	width: 100%;
+	height: 2.85rem;
+	background: white;
+	margin-bottom: 0.15rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.3rem ;
+}
+.yangshi1{
+	width: 4.2rem;
+	height: 2.55rem;
+	/*background: yellow;*/  
+	border-radius: 5px;         
+}
+.yangshi1 a{
+	display: block;
+	width: 4.2rem;
+	height: 2.55rem;
+}
+.yangshi1 a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+.yangshi2{
+	width: 4.2rem;
+	height: 2.55rem;
+	/*background: yellow;*/
+	border-radius: 5px;
+}
+.yangshi2 a{
+	display: block;
+	width: 4.2rem;
+	height: 2.55rem;
+}
+.yangshi2 a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	}
+.yangshi3{
+	width: 1.5rem;
+	height: 2.55rem;
+	/*background: yellow;*/
+	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.yangshi3 a{
+	display: block;
+	width: 1.5rem;
+	height: 2.55rem;
+}
+.yangshi3 a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+/*热门穿搭结束*/
+/*流行开始*/
+.popular{
+	width: 100%;
+	height: 1.8rem;
+	background: #FFFDEF;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1.38rem;
+}
+.popular li{
+	width: 0.86rem;
+	height: 100%;
+	background: #FFFDEF;
+	position: relative;
+}
+.popular li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.38rem;
+	color: #000000;
+	line-height: 1.8rem;
+	text-align: center;
+}
+.heng{
+	width: 0.54rem;
+	height: 0.06rem;
+	background: black;
+	position: absolute;
+	bottom: 0.4rem;
+	left: 0.15rem;
+}	
+.popular-body{
+	width: 100%;
+	height: 10.17rem;
+	background: #FFFFFF;
+	padding: 0.36rem 0.3rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+.popular-body a{
+	display: block;
+	width: 4.94rem;
+	height: 100%;
+	background: #FFFFFF;
+	border-radius: 0.16rem;
+	border: 0.01rem solid #e2e2e2;
+	
+}
+.photo{
+	width: 100%;
+	height: 7.41rem;
+	background: #FFFFFF;
+	border-top-left-radius: 0.16rem;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 0.16rem;
+	border-bottom-right-radius: 0;
+}
+.photo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 0.16rem;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 0.16rem;
+	border-bottom-right-radius: 0;
+}
+.pbody-bottom{
+	width: 100%;
+	height: 2.01rem;
+	background: #FFFFFF;
+	padding: 0 0.04rem;
+}
+.pbottom-top{
+	width: 100%;
+	height: 1.44rem;
+	background: #ffffff;
+	padding-top: 0.1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.pbottom-top div{
+	width: 0.86rem;
+	height: 0.42rem;
+	background: #eef4f2;
+	border-radius: 0.1rem;
+	/*padding:0.01rem;*/
+	font-size: 12px;
+	line-height: 0.42rem;
+	text-align: center;
+	color:#666b6e;
+	/*margin-right: 0.06rem;*/
+}
+.pbottom-top div:first-child{
+	background: #fb6291;
+	color:#ffffff;
+}
+.pbottom-top div:nth-child(2),.pbottom-top div:nth-child(7){
+	flex-basis: 1.64rem;
+}
+.pbottom-top div:nth-child(3){
+	flex-basis: 1.22rem;
+}
+.pbottom-top div:last-child{
+	flex-basis: 0.4rem;
+	background: #fff;
+}
+
+.pbottom-di{
+	width: 100%;
+	height: 0.57rem;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+}
+.pbottom-di div{
+	width: 1.38rem;
+	height: 100%;
+	background: #FFFFFF;
+	font-size: 12px;
+	color:#000000;
+	line-height: 0.57rem;
+	text-align: center;
+}
+.xinxin{
+	width: 0.45rem;
+	height: 0.45rem;
+	background: #FFFFFF;
+}
+.xinxin img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.pbottom-di .guanzhu{
+	display: flex;
+	justify-content: flex-end;
+}
+/*流行结束*/
+/*底部开始*/
+.nav{
+	width: 100%;
+	height: 1.3rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 0.05rem;
+	font-size:0.3rem; 
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+.nav1{
+	width: 1.3rem;
+	height: 1rem;
+}
+.nav1 a{
+	display: block;
+	width: 1.3rem;
+	height: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.down{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.down span{
+	display: block;
+	margin-left: 0.4rem;
+}
+.down-zi{
+	width: 1.3rem;
+	height: 0.37rem;
+	font-size: 0.3rem;
+	color: #999999;
+	text-align: center;
+}
+ nav .nav1:nth-of-type(2) a .down-zi{
+	color:#ed2d69;
+}
+/*底部结束*/

@@ -1,0 +1,414 @@
+@import url("base.css");
+body{
+	background: #f0f5f9;
+	height: 31.8rem;
+}
+/*头部开始*/
+header{
+	width: 100%;
+	height: 1.35rem;
+	background: #FFFDEF;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 4.27rem;
+	position: fixed;
+	z-index: 999;
+}
+.head-title{
+	width: 2.24rem;
+	height: 1.35rem;
+	font-size: 0.46rem;
+	line-height: 1.35rem;
+	text-align: center;
+}
+.head-right{
+	width: 0.9rem;
+	height: 1.35rem;
+}
+.head-right a{
+	display: block;
+	width: 0.9rem;
+	height: 1.35rem;
+	color: #424242;
+	font-size: 0.4rem;
+	line-height: 1.35rem;
+	text-align: center;
+}
+.head{
+	width: 100%;
+	height: 1.35rem;
+}
+/*头部结束*/
+/*购物车内容开始*/
+.car{
+	width: 100%;
+	height: 1.48rem;
+	background: #FFFDEF;
+	margin-top: 0.15rem;
+	display: flex;
+	justify-content: space-between;
+}
+.car-left{
+	width: 3.14rem;
+	height: 100%;
+	background: #FFFDEF;
+	padding: 0.42rem 0 0 0.3rem;
+	display: flex;
+	justify-content: space-between;
+}
+.car-left .img{
+	width: 0.55rem;
+	height: 0.55rem;
+	/*background: red;*/
+}
+.car-left .img img{
+	display: block;
+	width: 0.55rem;
+	height: 0.55rem;
+}
+.wenzi{
+	width: 2.1rem;
+	height: 0.44rem;
+	background: #FFFDEF;
+	font-size: 0.4rem;
+	color: #434343;
+	text-align: center;
+}
+.car-right{
+	display: block;
+	width: 1.3rem;
+	height: 100%;
+	background: #FFFDEF;
+	font-size: 0.4rem;
+	color: #ff6699;
+	line-height: 1.3rem;
+}
+.centent{
+	width: 100%;
+	height: 5.42rem;
+	background: #FFFDEF;
+	border-top: 2px solid #f2f5f8;
+	padding-top: 0.58rem;
+}
+.content-top{
+	width: 100%;
+	height: 3.45rem;
+	background: #FFFDEF;
+}
+.content-top a{
+	display: block;
+	width: 100%;
+	height: 3.45rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.top-left{
+	width: 0.55rem;
+	height: 0.55rem;
+}
+.top-left img{
+	display: block;
+	width: 0.55rem;
+	height: 0.55rem;
+}
+.top-middle{
+	width: 1.72rem;
+	height: 2.14rem;
+}
+.top-middle img{
+	display: block;
+	width: 1.72rem;
+	height: 2.14rem;
+}
+.top-right{
+	width: 6.53rem;
+	height: 3.45rem;
+}
+.right-top{
+	width: 100%;
+	height: 0.82rem;
+	color: #343434;
+	font-size: 0.36rem;
+}
+.right-middle{
+	width: 100%;
+	height: 1.28rem;
+	color: #999999;
+	font-size: 0.26rem;
+	line-height: 1.28rem;
+}
+.right-bottom{
+	width: 100%;
+	height: 1.35rem;
+	color: #333333;
+	font-size: 0.32rem;
+	line-height: 1.35rem;
+	display: flex;
+	justify-content: space-between;
+}
+.right-bottom-price{
+	width: 1.74rem;
+	height: 100%;
+}
+.right-bottom-count{
+	width: 0.73rem;
+	height: 100%;
+	text-align: right;
+}
+.content-bottom{
+	width: 100%;
+	height: 1.39rem;
+	background: #FFFDEF;
+}
+.content-bottom a{
+	display: block;
+	width: 100%;
+	height: 1.39rem;
+	font-size: 0.34rem;
+	color:#f0769c;
+	padding-left: 1.42rem;
+	line-height: 1.39rem;
+}
+/*购物车内容结束*/
+/*猜你喜欢开始*/
+.title{
+	width: 100%;
+	height: 1.5rem;
+	background: #FFFDEF;
+	margin-top: 0.13rem;
+	padding-left: 0.32rem;
+	font-size: 0.38rem;
+	color: #666666;
+	line-height: 1.5rem;
+}
+.like-content{
+	width: 100%;
+	height: 9.6rem;
+	background: #FFFDEF;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.3rem;
+}
+.like-content li{
+	width: 4.95rem;
+	height: 9.14rem;
+	background: #FFFDEF;
+	border: 1px solid #eeeeee;
+	border-top: 0;
+	border-radius: 5px;
+}
+.like-content li a{
+	display: block;
+	width: 100%;
+	height: 9.14rem;
+	border-radius: 5px;
+}
+.like-content-tu{
+	width: 100%;
+	height: 7.41rem;
+	/*background: yellow;*/
+	border-radius: 5px;
+	
+}
+.like-content-tu img{
+	display: block;
+	width: 100%;
+	height: 7.41rem;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.like-content-jieshao{
+	width: 100%;
+	height: 0.92rem;
+	background: #FFFDEF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.18rem;
+}
+.like-content-jieshao .youxuan{
+	width: 0.72rem;
+	height: 0.41rem;
+	background: #ff6699;
+	border-radius: 2px;
+	font-size: 0.26rem;
+	line-height: 0.41rem;
+	color: #FFFDEF;
+	text-align: center;
+}
+.like-content-jieshao .youxuan-right{
+	width: 3.75rem;
+	height: 0.41rem;
+	background: #FFFDEF;
+	color: #666666;
+	font-size: 0.34rem;
+}
+.like-content-price{
+	width: 100%;
+	height: 0.47rem;
+	background: #FFFDEF;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.14rem;
+}
+.price-left{
+	width: 1.14rem;
+	height: 0.47rem;
+	background: #FFFDEF;
+	font-size: 0.26rem;
+	color: #333333;	
+	text-align: center;
+	line-height: 0.47rem;
+}
+.price-right{
+	width: 1.28rem;
+	height: 0.47rem;
+	background: gold;
+	display: flex;
+	justify-content: space-between;
+}
+.price-right .cang{
+	width: 0.81rem;
+	height: 0.47rem;
+	background: #FFFDEF;
+	font-size: 0.26rem;
+	color: #333333;	
+	text-align: center;
+	line-height: 0.47rem;
+}
+.price-right .xing{
+	width: 0.47rem;
+	height: 0.47rem;
+	background: pink;
+}
+.price-right .xing img{
+	display: block;
+	width: 0.47rem;
+	height: 0.47rem;
+}
+/*猜你喜欢结束*/
+/*结算开始*/
+.jiesuan{
+	width: 100%;
+	height: 1.46rem;
+	background: #FFFDEF;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #c3c3c3;
+	position: fixed;
+	z-index: 999;
+	bottom: 1.3rem;
+}
+.jiesuan1{
+	width: 2.61rem;
+	height: 100%;
+	background: #FFFDEF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0.45rem;
+}
+.jiesuan1-left{
+	width: 0.55rem;
+	height: 0.55rem;
+	background: #FFFDEF;
+}
+.jiesuan1-left img{
+	display: block;
+	width: 0.55rem;
+	height: 0.55rem;
+}
+.jiesuan1-right{
+	width: 1.36rem;
+	height: 0.55rem;
+	background: #FFFDEF;
+	font-size: 0.4rem;
+	line-height: 0.55rem;
+}
+.jiesuan2{
+	width: 4.95rem;
+	height: 100%;
+	background: #FFFDEF;
+	padding-top: 0.31rem;
+	padding-left: 1.67rem;
+}
+.jiesuan2-top{
+	width: 3.28rem;
+	height: 0.44rem;
+	font-size: 0.36rem;
+	color: #ff6699;
+	line-height: 0.44rem;
+}
+.jiesuan2-down{
+	width: 3.28rem;
+	height: 0.23rem;
+	background: #FFFDEF;
+	font-size: 0.3rem;
+	color: #9a9a9a;
+	line-height: 0.23rem;
+}
+.jiesuan3{
+	width: 2.64rem;
+	height: 100%;
+	background: #FF6699;
+}
+.jiesuan3 a{
+	display: block;
+	width: 2.64rem;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #FFFDEF;
+	line-height: 1.46rem;
+	text-align: center;
+	font-weight: 700;
+}
+/*结算结束*/
+/*底部开始*/
+.nav{
+	width: 100%;
+	height: 1.3rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 0.05rem;
+	font-size:0.3rem; 
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+.nav1{
+	width: 1.3rem;
+	height: 1rem;
+}
+.nav1 a{
+	display: block;
+	width: 1.3rem;
+	height: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.down{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.down span{
+	display: block;
+	margin-left: 0.4rem;
+}
+.down-zi{
+	width: 1.3rem;
+	height: 0.37rem;
+	font-size: 0.3rem;
+	color: #999999;
+	text-align: center;
+}
+ nav .nav1:nth-last-child(2) a .down-zi{
+	color:#ed2d69;
+}
+
+/*底部结束*/

@@ -1,0 +1,773 @@
+@import url(base.css);
+body{
+	background: #f1f4f9;
+	height: 115rem;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 1.35rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.35rem 0.08rem 0 0.08rem;
+	position: fixed;
+	z-index: 20000;
+}
+.head-left{
+	display: block;
+	width: 0.67rem;
+	height: 0.67rem;
+	background: url('../img/2_06.png') no-repeat center;
+	background-size: 0.67rem 0.67rem;
+
+}
+.head-middle{
+	width: 8.13rem;
+	height: 0.67rem;
+	font-size: 0.48rem;
+	color: #292929;
+	line-height: 0.67rem;
+	text-align: center;
+	font-weight: bold;
+}
+.head-right{
+	display: block;
+	width: 0.68rem;
+	height: 0.67rem;
+	background: url('../img/3_10.png') no-repeat center;
+	background-size: 0.68rem 0.67rem;
+}
+.head{
+	width: 100%;
+	height: 1.35rem;
+background: red;}
+/* 头部结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 5.6rem;
+	/*background: red;*/
+	position: relative;
+}
+.tu{
+	width: 100%;
+	height: 5.6rem;
+	/*background: yellow;*/
+	position: relative;
+}
+.tu li{
+	width: 100%;
+	height: 5.6rem;
+	position: absolute;
+}
+.tu li a{
+	display: block;
+	width: 100%;
+	height: 5.6rem;
+}
+.tu li a img{
+	display: block;
+	width: 100%;
+	height: 5.6rem;
+}
+.tvn{
+	width: 1.4rem;
+	height: 0.1rem;
+	position: absolute;
+	bottom: 0.29rem;
+	right: 4.71rem;
+	display: flex;
+	justify-content: space-between;
+}
+.tvn li{
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #fff;
+	border-radius: 50%;
+}
+/* banner结束 */
+/* 列表1开始 */
+.list{
+    width: 100%;
+    height: 1.15rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.43rem 0.35rem 0 0.4rem;
+}
+.list a{
+    display: block;
+	width: 1.9rem;
+	height: 0.31rem;
+	font-size: 0.24rem;
+	line-height: 0.31rem;
+	text-align: center;
+	color: #bebebe;
+	display: flex;
+	justify-content: space-between;
+}
+/* 列表1结束 */
+/* 列表2开始 */
+.big{
+	width: 100%;
+	height: 3.61rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.45rem 0.28rem 0 ;
+    margin-top: 0.14rem;
+}
+.big li{
+	width: 1.91rem;
+	height: 2.66rem;
+}
+.big li a{
+	display: block;
+	width: 1.91rem;
+	height: 2.66rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.big li a .dongtu{
+	width: 1.91rem;
+	height: 1.91rem;
+	/*background: pink;*/
+	border-radius: 50%;
+}
+.big li a .dongtu img{
+	display: block;
+	width: 1.91rem;
+	height: 1.91rem;
+	border-radius: 50%;
+}
+.jieshao{
+	width: 100%;
+	height: 0.41rem;
+	font-size: 0.32rem;
+	color: #616161;
+	display: block;
+	line-height: 0.41rem;
+	text-align: center;
+}
+/* 列表2结束 */
+/* 限时秒杀开始 */
+.sha{
+	width: 100%;
+	height: 1.18rem;
+	background: #fff;
+	margin-top: 0.15rem;
+	padding: 0.35rem 0.28rem 0;
+}
+.sha a{
+	display: block;
+	width: 100%;
+	height: 1.18rem;
+	display: flex;
+	justify-content: space-between;
+}
+.sha-left{
+	width: 2.4rem;
+	height: 0.43rem;
+	display: flex;
+	justify-content: space-between;
+
+}
+.sha-left .fire{
+	width: 0.32rem;
+	height: 0.43rem;
+	background: blue;
+	background: url('../img/huo_47.png') no-repeat center;
+	background-size: 0.32rem 0.43rem;
+}
+.sha-left .zi{
+	width: 2.2rem;
+	height: 0.43rem;
+	display: block;
+	font-size: 0.32rem;
+	color: #484848;
+	line-height: 0.43rem;
+	text-align: center;
+}
+.sha-right{
+	width: 5.69rem;
+	height: 0.43rem;
+	font-size: 0.3rem;
+	color: #484848;
+	line-height: 0.43rem;
+	text-align: right;
+}
+.miao{
+	display: block;
+	width: 100%;
+	height: 4.88rem;
+	background: #fff;
+	padding-left: 0.3rem;
+}
+.miao img{
+	display: block;
+	width: 10.21rem;
+	height: 4.3rem;
+}
+/* 限时秒杀结束 */
+/* 今日上新开始 */
+.xin{
+	width: 100%;
+	height: 1.18rem;
+	background: #fff;
+	margin-top: 0.15rem;
+	padding: 0.35rem 0.28rem 0;
+}
+.xin a{
+	display: block;
+	width: 100%;
+	height: 1.18rem;
+	display: flex;
+	justify-content: space-between;
+}
+.xin-left{
+	width: 2.4rem;
+	height: 0.43rem;
+	display: flex;
+	justify-content: space-between;
+
+}
+.xin-left .fire{
+	width: 0.32rem;
+	height: 0.43rem;
+	background: blue;
+	background: url('../img/02.png') no-repeat center;
+	background-size: 0.32rem 0.43rem;
+}
+.xin-left .zi{
+	width: 2.2rem;
+	height: 0.43rem;
+	display: block;
+	font-size: 0.32rem;
+	color: #484848;
+	line-height: 0.43rem;
+	text-align: center;
+}
+.xin-right{
+	width: 5.69rem;
+	height: 0.43rem;
+	font-size: 0.3rem;
+	color: #484848;
+	line-height: 0.43rem;
+	text-align: right;
+}
+.new{
+	width: 100%;
+	height: 5.67rem;
+		background: #fff;
+	display: flex;
+	justify-content: space-around;
+}
+.new li{
+	width: 2.99rem;
+	height: 5.26rem;
+}
+.new li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.new li a .tupian{
+	width: 100%;
+	height: 4.49rem;
+}
+.new li a .tupian img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.new li a .wenzi{
+	width: 100%;
+	height: 0.77rem;
+	display: block;
+	font-size: 0.3rem;
+	color: #000;
+	line-height: 0.77rem;
+	text-align: center;
+}
+/* 今日上新结束 */
+/* 正在流行开始 */
+.popular{
+	width: 100%;
+	height: 1.18rem;
+	background: #fff;
+	margin-top: 0.15rem;
+	padding: 0.35rem 0.28rem 0;
+}
+.popular a{
+	display: block;
+	width: 100%;
+	height: 1.18rem;
+	display: flex;
+	justify-content: space-between;
+}
+.popular-left{
+	width: 2.4rem;
+	height: 0.43rem;
+	display: flex;
+	justify-content: space-between;
+
+}
+.popular-left .fire{
+	width: 0.32rem;
+	height: 0.43rem;
+	background: blue;
+	background: url('../img/03.png') no-repeat center;
+	background-size: 0.32rem 0.43rem;
+}
+.popular-left .zi{
+	width: 2.2rem;
+	height: 0.43rem;
+	display: block;
+	font-size: 0.32rem;
+	color: #484848;
+	line-height: 0.43rem;
+	text-align: center;
+}
+.popular-right{
+	width: 5.69rem;
+	height: 0.43rem;
+	font-size: 0.3rem;
+	color: #484848;
+	line-height: 0.43rem;
+	text-align: right;
+}
+.now-popular{
+	width: 100%;
+	height: 3.44rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 0.3rem;
+}
+.now-popular li{
+	width: 2.26rem;
+	height: 3.04rem;
+	background: #fff;
+}
+.now-popular li a{
+	display: block;
+	width: 2.26rem;
+	height: 3.04rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.popular-tu{
+	width: 2.26rem;
+	height: 2.26rem;
+	background: #fdeaf0;
+	border-radius: 50%;
+}
+.popular-tu img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.popular-zi{
+	width: 100%;
+	height: 0.44rem;
+	background: #fff;
+	font-size: 0.26rem;
+	color: #333333;
+	text-align: center;
+	line-height: 0.44rem;
+}
+.today{
+	width: 100%;
+	height: 1.1rem;
+	background:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.or{
+	width: 1rem;
+	height: 0.6rem;
+	background: #ff752d;
+	border-radius: 30px;
+	font-size: 0.2rem;
+	color: #fff;
+	line-height: 0.6rem;
+	text-align: center;
+	margin-right: 0.1rem;
+}
+.orr{
+	width: 1.6rem;
+	height: 0.22rem;
+	display: flex;
+	justify-content: space-between;
+}
+.orr li{
+	width: 0.22rem;
+	height: 0.22rem;
+	background: #666666;
+	border-radius: 50%;
+}
+/* 正在流行结束 */
+/* 好物搭配开始 */
+.good{
+	width: 100%;
+	height: 1.18rem;
+	background: #fff;
+	margin-top: 0.15rem;
+	padding: 0.35rem 0.28rem 0;
+}
+.good a{
+	display: block;
+	width: 100%;
+	height: 1.18rem;
+	display: flex;
+	justify-content: space-between;
+}
+.good-left{
+	width: 2.4rem;
+	height: 0.43rem;
+	display: flex;
+	justify-content: space-between;
+
+}
+.good-left .fire{
+	width: 0.32rem;
+	height: 0.43rem;
+	background: blue;
+	background: url('../img/04.jpg') no-repeat center;
+	background-size: 0.32rem 0.43rem;
+}
+.good-left .zi{
+	width: 2.2rem;
+	height: 0.43rem;
+	display: block;
+	font-size: 0.32rem;
+	color: #484848;
+	line-height: 0.43rem;
+	text-align: center;
+}
+.good-right{
+	width: 5.69rem;
+	height: 0.43rem;
+	font-size: 0.3rem;
+	color: #484848;
+	line-height: 0.43rem;
+	text-align: right;
+}
+.dapei1{
+	width: 100%;
+	height: 10.13rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.29rem;
+}
+.dapei1-left{
+	width: 6.78rem;
+	height: 10.14rem;
+	background: #fff;
+}
+.dapei1-left a{
+	display: block;
+	width: 6.78rem;
+	height: 10.14rem;
+}
+.dapei1-left a img{
+	display: block;
+	width: 6.78rem;
+	height: 10.14rem;
+}
+.dapei1-right{
+	width: 3.38rem;
+	height: 10.14rem;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.dapei1-right li{
+	width: 3.38rem;
+	height: 3.34rem;
+	background: #fff;
+}
+.dapei1-right li a{
+    display: block;
+    width: 3.38rem;
+	height: 3.34rem;
+}
+.dapei1-right li a img{
+	display: block;
+    width: 3.38rem;
+	height: 3.34rem;
+}
+.dapei1-middle{
+	width: 100%;
+	height: 5.95rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	padding-top: 0.63rem;
+}
+.dapei1-middle-tu{
+	width: 10.2rem;
+	height: 5.17rem;
+	background: #fff;
+}
+.dapei1-middle-tu a{
+	display: block;
+	width: 10.2rem;
+	height: 5.17rem;
+}
+.dapei1-middle-tu a img{
+	display: block;
+	width: 10.2rem;
+	height: 5.17rem;
+}
+.dapei1-bottom{
+	width: 100%;
+	height: 4.5rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.15rem   0.32rem   0.68rem;
+}
+.dapei1-bottom li{
+	width: 2.1rem;
+	height: 3.68rem;
+	background: #fff;
+}
+.dapei1-bottom li a{
+	display: block;
+	width: 2.1rem;
+	height: 3.68rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.tutu{
+	width: 2.1rem;
+	height: 3.16rem;
+	background: #fff;
+}
+.tutu img{
+	display: block;
+	width: 2.1rem;
+	height: 3.16rem;
+}
+.hanzi{
+	width: 2.1rem;
+	height: 0.53rem;
+	background: #fff;
+	font-size: 0.3rem;
+	color: #323232;
+	line-height: 0.53rem;
+	text-align: center;
+}
+.more{
+	width: 100%;
+	height: 1.64rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0.14rem;
+}
+.more a{
+	display: block;
+	width: 9.49rem;
+	height: 1.07rem;
+	background: #f1f4f9;
+	border-radius: 20px;
+	font-size: 0.3rem;
+	color: #4b4c4e;
+	line-height: 1.07rem;
+	text-align: center;
+}
+/* 好物搭配结束 */
+/* 流行单品开始 */
+.dan{
+	width: 100%;
+	height: 1.18rem;
+	background: #fff;
+	margin-top: 0.15rem;
+	padding: 0.35rem 0.28rem 0;
+}
+.dan a{
+	display: block;
+	width: 100%;
+	height: 1.18rem;
+	display: flex;
+	justify-content: space-between;
+}
+.dan-left{
+	width: 2.4rem;
+	height: 0.43rem;
+	display: flex;
+	justify-content: space-between;
+
+}
+.dan-left .fire{
+	width: 0.32rem;
+	height: 0.43rem;
+	background: blue;
+	background: url('../img/25.png') no-repeat center;
+	background-size: 0.38rem 0.43rem;
+}
+.dan-left .zi{
+	width: 2.2rem;
+	height: 0.43rem;
+	display: block;
+	font-size: 0.32rem;
+	color: #484848;
+	line-height: 0.43rem;
+	text-align: center;
+}
+.dan-right{
+	width: 5.69rem;
+	height: 0.43rem;
+	font-size: 0.3rem;
+	color: #484848;
+	line-height: 0.43rem;
+	text-align: right;
+}
+.jiayou{
+	width: 10.8rem;
+	height: 10.08rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.3rem;
+}
+.jiayou li{
+	width: 4.95rem;
+	height: 9.46rem;
+	background: #fff;
+}
+.jiayou li a{
+	display: block;
+	width: 4.95rem;
+	height: 9.46rem;
+	background: #fff;
+	font-size: 0.3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: black;
+}
+.end-tu{
+	width: 4.95rem;
+	height: 7.41rem;
+	/* background: pink; */
+}
+.end-tu img{
+	display: block;
+	width: 4.95rem;
+	height: 7.41rem;
+}
+.end-jieshao{
+	width: 4.95rem;
+	height: 1.45rem;
+	font-size: 0.3rem;
+	text-align: center;
+	display: flex;
+
+	flex-wrap: wrap;
+	padding-top: 0.01rem;
+}
+.hezi{
+	height: 0.4rem; 
+	background: #f3f6ff;
+	padding: 0  0.1rem;
+}
+.end-jieshao div:first-child{
+	background: #f4e4b0;
+}
+.end-prise{
+	width: 4.95rem;
+	height: 0.6rem;
+	background:#fff;
+	display: flex;
+	justify-content: space-between;
+}
+.price-left{
+	width: 1.3rem;
+	height: 0.6rem;
+	background: #fff;
+	font-size: 0.2rem;
+	line-height: 0.6rem
+}
+.price-right{
+	width: 1.55rem;
+	height: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.price-right .ai{
+	width: 1rem;
+	height: 0.6rem;
+	font-size: 0.2rem;
+	text-align: right;
+}
+.price-right .ai1{
+	width: 0.47rem;
+	height: 0.43rem;
+	background: yellow;
+}
+.price-right .ai1 img{
+    display: block;
+    width: 0.47rem;
+	height: 0.43rem;
+}
+/* 流行单品结束 */
+.nav{
+	width: 100%;
+	height: 1.3rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 0.05rem;
+	font-size:0.3rem; 
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+.nav1{
+	width: 1.3rem;
+	height: 1rem;
+}
+.nav1 a{
+	display: block;
+	width: 1.3rem;
+	height: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.down{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.down span{
+	display: block;
+	margin-left: 0.4rem;
+}
+.down-zi{
+	width: 1.3rem;
+	height: 0.37rem;
+	font-size: 0.3rem;
+	color: #999999;
+	text-align: center;
+}
+ nav .nav1:first-child a .down-zi{
+	color:#ed2d69;
+}
+

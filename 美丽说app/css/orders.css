@@ -1,0 +1,252 @@
+@import url(base.css);
+body{
+	background: #f1f4f9;
+	height: 30.2rem;
+}
+header{
+	width: 100%;
+	height: 1.36rem;
+	background: #FFFFFF;
+	display: flex;
+	padding-left: 0.39rem;
+	border-bottom: 1px solid #e5e5e5;
+	position: fixed;
+	z-index: 999;
+}
+.header-return{
+	width: 0.44rem;
+	height: 100%;
+	background: #FFFFFF;
+}
+.header-return a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.54rem;
+	color: #949494;
+	line-height: 1.36rem;
+	text-align: center;
+}
+.header-title{
+	width: 9rem;
+	height: 100%;
+	background: #FFFFFF;
+	font-size: 0.5rem;
+	color: #424242;
+	line-height: 1.36rem;
+	text-align: center;
+}
+.head{
+	width: 100%;
+	height: 1.36rem;
+}
+.water{
+	width: 100%;
+	height: 1.32rem;
+	background: #FFFFFF;
+	border-bottom: 1px solid #e5e5e5;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.26rem;
+}
+.water li{
+	width: 1.7rem;
+	height: 100%;
+	background: #FFFFFF;
+	position: relative;
+}
+.water li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 0.38rem;
+	color: #666666;
+	line-height: 1.32rem;
+	text-align: center;
+}
+.water li .xian{
+	width: 0.75rem;
+	height: 0.06rem;
+	background: #000000;
+	position: absolute;
+	bottom: 0;
+	left: 0.5rem;
+}
+.water li:first-child a{
+	color: #000000;
+}
+/*订单开始*/
+.ding-tou{
+	width: 100%;
+	height: 1.43rem;
+	background: #FFFFFF;
+	margin-top: 0.14rem;
+	border-bottom: 1px solid #e5e5e5;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.47rem;
+}
+.ding-tou .store{
+	width: 2.47rem;
+	height: 100%;
+	background: #FFFFFF;
+}
+.ding-tou .store a{
+	display: block;
+	width: 2.47rem;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #353535;
+	line-height: 1.43rem;
+	text-align: center;
+}
+.ding-tou .tradition{
+	width: 2rem;
+	height: 100%;
+	background: #FFFFFF;
+}
+.ding-tou .tradition a{
+	display: block;
+	width: 2rem;
+	height: 100%;
+	font-size: 0.4rem;
+	color: #353535;
+	line-height: 1.43rem;
+	text-align: center;
+}
+.many{
+	width: 100%;
+	height: 10.31rem;
+	background: #FFFFFF;
+	border-bottom: 1px solid red;
+	
+}
+.many li{
+	width: 100%;
+	height: 3.45rem;
+	background: #FFFFFF;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0.35rem 0.3rem;
+}
+.many li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.many li a .bao{
+	width: 1.79rem;
+	height: 2.7rem;
+	background: #FFFFFF;
+}
+.many li a .bao img{
+	display: block;
+	width: 1.79rem;
+	height: 2.7rem;
+}
+.many li a .jieshao{
+	width: 5.34rem;
+	height: 2.7rem;
+	background: #FFFFFF;
+}
+.jieshao .jieshao-top{
+	width: 5.34rem;
+	height: 0.65rem;
+	background: #FFFFFF;
+	padding-left: 0.34rem;
+	font-size: 0.34rem;
+	color: #343434;
+	line-height: 0.65rem;
+}
+.jieshao-bottom{
+	width: 100%;
+	height: 0.63rem;
+	background: #FFFFFF;
+	padding-left: 0.34rem;
+	font-size: 0.34rem;
+	color: #999999;
+	line-height: 0.63rem;
+}
+.many li a .count{
+	width: 3.06rem;
+	height: 2.7rem;
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.count-top{
+	width: 100%;
+	height: 1.17rem;
+	background: #FFFFFF;
+	font-size: 0.32rem;
+	color: #333333;
+	line-height: 1.17rem;
+	text-align: right;
+}
+.count-bottom{
+	width: 100%;
+	height: 0.55rem;
+	background: #FFFFFF;
+	font-size: 0.32rem;
+	color: #333333;
+	line-height: 0.55rem;
+	text-align: right;
+}
+.zong{
+	width: 100%;
+	height: 1.25rem;
+	background: #FFFFFF;
+	margin-top: 2px;
+	display: flex;
+	justify-content: flex-end;
+}
+.zong-left{
+	width: 1.95rem;
+	height: 1.25rem;
+	background: #FFFFFF;
+	font-size: 0.34rem;
+	color: #333333;
+	text-align: center;
+	line-height: 1.25rem;
+}
+.zong-right{
+	width: 2.56rem;
+	height: 1.25rem;
+	background: #FFFFFF;
+	font-size: 0.35rem;
+	color: #ff6699;
+	line-height: 1.25rem;
+	text-align: center;
+}
+/*订单结束*/
+.dibu{
+	width: 100%;
+	height: 1.21rem;
+	background: #f6f6f6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1.42rem;
+}
+.dibu1{
+	width: 3.45rem;
+	height: 0.02rem;
+	background: #d9d9d9;
+}
+.dibu2{
+	width: 0.37rem;
+	height: 0.34rem;
+	/*background: blue;*/
+}
+.dibu2 img{
+	display: block;
+	width: 0.37rem;
+	height: 0.34rem;
+}
+.dibu3{
+	width: 3.45rem;
+	height: 0.02rem;
+	background: #d9d9d9;
+}
